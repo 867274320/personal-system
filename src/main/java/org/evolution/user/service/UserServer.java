@@ -1,7 +1,8 @@
 package org.evolution.user.service;
 
-import org.springframework.stereotype.Service;
+import org.evolution.user.dao.entities.User;
 
-@Service
 public interface UserServer {
+
+    public User queryById(User entity);
 }
